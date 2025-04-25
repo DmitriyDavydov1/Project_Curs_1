@@ -54,14 +54,14 @@ SkyBank включает следующие модули:
 
 python = "^3.12"\
 requests = "^2.32.3"\
-python-dotenv = "^1.0.1"\
+python-dotenv = "^1.1.0"\
 pandas = "^2.2.3"\
-mypy = "^1.11.2"\
-flake8 = "^7.1.1"\
-black = "^24.8.0"\
-isort = "^5.13.2"\
-pytest = "^8.3.3"\
-pytest-cov = "^5.0.0"
+mypy = "^1.15.0"\
+flake8 = "^7.2.0"\
+black = "^25.1.0"\
+isort = "^6.0.1"\
+pytest = "^8.3.5"\
+pytest-cov = "^6.1.1"
 
 ## Установка
 
