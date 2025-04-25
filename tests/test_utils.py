@@ -41,7 +41,8 @@ def test_data_from_excel_file_not_found():
 
 
 def test_data_from_excel_empty_file():
-    """Тестирует корректную загрузку при пустом Excel файле"""    empty_df = pd.DataFrame()
+    """Тестирует корректную загрузку при пустом Excel файле"""
+    empty_df = pd.DataFrame()
 
     with patch("pandas.read_excel") as mock_read_excel:
         mock_read_excel.return_value = empty_df
