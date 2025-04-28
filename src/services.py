@@ -5,6 +5,7 @@ import logging
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
+
 def dataframe_to_dict_with_str(df):
     """Преобразует DataFrame в список словарей"""
     result = []
