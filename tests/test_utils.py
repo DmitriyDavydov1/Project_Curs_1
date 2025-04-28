@@ -36,7 +36,7 @@ def test_data_from_excel(data_transactions):
 def test_data_from_excel_file_not_found():
     """Тестирует возникновение ошибки при отсутствии файла"""
     with patch("pandas.read_excel", side_effect=FileNotFoundError):
-        with pytest.raises(ValueError, match="Файл 'missing_file.xlsx' не найден."):
+        with pytest.raises(ValueError, match="Файл 'missing_file.xlsx' не найден"):
             data_from_excel("missing_file.xlsx")
 
 
