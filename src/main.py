@@ -32,4 +32,4 @@ if __name__ == "__main__":
     # ========================= Отчеты: «Траты по категории» =========================
     print("\n\n", "===== Отчеты: «Траты по категории» =====", "\n")
     # Выводим траты по заданной категории за последние три месяца (от переданной даты)
-    print(spending_by_category(all_transactions, "Супермаркеты", date_time_str))
+    print(spending_by_category(all_transactions, "Переводы", date_time_str))
